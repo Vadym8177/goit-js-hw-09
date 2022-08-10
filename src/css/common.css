@@ -16,3 +16,27 @@ img {
   display: block;
   max-width: 100%;
 }
+
+.timer {
+  display: flex;
+  padding-top: 20px;
+  font-size: 20px;
+  color: #999;
+  letter-spacing: -1px;
+}
+
+.label {
+  padding: 0;
+  margin-left: -4px;
+}
+
+.value {
+  padding: 0;
+  font-size: 60px;
+  color: #333;
+  margin-left: 15px;
+}
+
+span[data-days] {
+  margin-left: 0;
+}
